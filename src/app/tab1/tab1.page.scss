@@ -1,0 +1,233 @@
+.baseView{
+width: 100%;
+height: 100vh;
+
+background: #1F2233;
+ /* Establece una altura máxima */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+  width: 100%;
+  
+  box-sizing: border-box;
+}
+
+.fist-div * {
+    box-sizing: border-box;
+  }
+  .fist-div {
+    background: linear-gradient(
+      180deg,
+      rgba(45, 49, 61, 0.55) 0%,
+      rgba(27, 30, 47, 1) 100%
+    );
+    border-radius: 53px;
+    width: 99%;
+    height: 11.5rem;
+    display: flexbox;
+   
+    padding: 2rem;
+  }
+
+
+  
+.lorem-ipsum {
+  color: #ffffff;
+  text-align: left;
+  font: 700 1rem "Inter", sans-serif;
+ width:8rem;
+ float: left;
+ margin-right: 6rem;
+}
+
+.frame1{
+ float: right;
+ width: 3.625rem;
+ height: 3.5rem;
+ 
+ 
+ 
+ 
+ flex-shrink: 0;
+ border-radius: 2.0625rem;
+  background: #FEB35F;
+}
+
+.frame2{
+ float: left; /* Cambiado de 'float: right;' a 'float: left;' */
+  clear: left;
+background: linear-gradient(
+    180deg,
+    rgba(254, 179, 95, 1) 0%,
+    rgba(255, 55, 159, 1) 100%
+  );
+  border-radius: 2.25rem;
+ 
+  border: 0.1rem rgba(255, 55, 159, 0.99) solid;
+  border-image: linear-gradient(
+    200deg
+    rgba(255, 55, 159, 0.99) 0%,
+    rgba(254, 179, 95, 0.99) 0.009999999747378752%,
+    rgba(254, 179, 95, 0.46) 100%
+  );
+  
+  
+  width: 97%;
+  height: 3.625rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1rem;
+ 
+   }
+
+.butBeg{
+  background-color: #FEB35F;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  margin-left: 1.5rem;
+  background: linear-gradient(181deg, #FEB35F 0.52%, #FE4998 99.49%);
+  width: 22%;
+  height: 3%;
+  margin-right: 1.5rem;
+
+
+}
+
+.buttons{
+  width: 99%;
+
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; 
+  margin-top: 2%;
+  
+}
+
+.iconsOne{
+  color: white;
+  font-size: 4rem;
+}
+  
+.iconOne{
+  color: white;
+  font-size: 3rem;
+  margin-left: 0.28rem;
+  margin-top: 0.28rem;
+}
+
+.priceContent{
+  width: 95%;
+  
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin: 0.5rem;
+  justify-content: center;
+  display: flex
+  
+}
+
+.butBeg2{
+  background-color: #FEB35F;
+  
+  border-radius: 1rem;
+ 
+  background: linear-gradient(181deg, #FEB35F 0.52%, #FE4998 99.49%);
+  width:12rem;
+  height:5rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.usd {
+  color: #000000;
+  text-align: left;
+  font: 0.5rem "Inter", sans-serif;
+  
+ 
+}
+
+._56-346 {
+  color: #000000;
+  
+  font: 0.5rem "Inter", sans-serif;
+  
+
+}
+
+.button-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.money-one,
+.money-one * {
+  box-sizing: border-box;
+}
+.money-one {
+  margin-left: 5%;
+  background: linear-gradient(
+    94.14deg,
+    rgba(49, 51, 72, 0.99) 0%,
+    rgba(38, 41, 58, 0.38) 100%
+  );
+  border-radius: 17px;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.lorem-impum {
+  color: #ffffff;
+  text-align: left;
+  font: 1rem"Inter", sans-serif;
+  position: absolute;
+  left: 1.75rem;
+  top: 1rem;
+}
+._28-01-28 {
+  color: #ffffff;
+  text-align: left;
+  font: 1rem "Inter", sans-serif;
+  position: absolute;
+  left: 1.75rem;
+  top: 2.5rem;
+}
+.frame-12 {
+  background: linear-gradient(
+    180deg,
+    rgba(254, 179, 95, 1) 0%,
+    rgba(254, 73, 152, 1) 100%
+  );
+  border-radius: 11px;
+  
+  border: 0.1rem rgba(255, 55, 159, 0.99) solid;
+  border-image: linear-gradient(
+    200deg
+    rgba(255, 55, 159, 0.99) 0%,
+    rgba(254, 179, 95, 0.99) 0.009999999747378752%,
+    rgba(254, 179, 95, 0.46) 100%
+  );
+  border-image-slice: 1;
+  width: 15%;
+  height: 60%;
+  float: right;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+ 
+}
+._45 {
+  color: #ffffff;
+  text-align: left;
+  font: 1rem "Inter", sans-serif;
+  position: absolute;
+  
+}
+
+

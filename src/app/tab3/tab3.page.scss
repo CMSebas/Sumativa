@@ -1,0 +1,76 @@
+ion-content{
+    --ion-background-color: #1F2233;
+   
+    overflow-y: auto;
+    box-sizing: border-box;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fist-div * {
+    box-sizing: border-box;
+  }
+  .fist-div {
+   
+   
+    width: 95%;
+    height: 11.5rem;
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para apilar los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
+    padding: 0;
+    
+   
+  }
+
+  .iconOne{
+    color: white;
+    
+    font-size:30vw;
+    background: linear-gradient(
+        180.08deg,
+        rgba(254, 179, 95, 1) 0%,
+        rgba(254, 73, 152, 1) 96.875%
+      );
+      border-radius: 50%; 
+
+  }
+
+  .text1{
+    color: white;
+    font-size:6vw; 
+
+  }
+
+  .text2{
+    color: white;
+    font-size:3vw; 
+
+  }
+
+  .config ion-label {
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .config ion-icon {
+    color: rgb(255, 255, 255);
+    
+  }
+
+  ion-item{
+    
+     border-bottom: 0.1rem solid ;
+     border-image: linear-gradient(180.08deg,
+     rgba(254, 179, 95, 1) 0%,
+     rgba(254, 73, 152, 1) 96.875%); /* Ajusta los colores según tus necesidades */
+      border-image-slice: 1;
+      font-size:5.5vw;
+    }
+
+.config{
+    margin: 5%;
+}
+   
